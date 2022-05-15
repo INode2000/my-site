@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+
+.pervaya {
+	color: red 
+}
+
+.pervaya:hover {
+	color: lightgreen 
+}
+
+.luchshaya {
+	color: yellow
+}
+
+.luchshaya
