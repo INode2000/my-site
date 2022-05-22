@@ -53,7 +53,7 @@ h4 {
     border: 6px solid navy;
     width: 370px;
     height: 220px;
-    transition: 0.5s ease-out;
+    transition: 0.5s linear;
     padding: 5px;
 }
 
