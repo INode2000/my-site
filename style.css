@@ -46,6 +46,7 @@ h4 {
     opacity: 0.5;
     width: 250px;
     height: 200px;
+    transition: 0.5s linear;
 }
 
 .galleryimg:hover {
