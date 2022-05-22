@@ -39,7 +39,7 @@ h4 {
     color: rgb(255, 230, 0);
     padding: 15px;
     border-radius: 10px;
-    background-image: linear-gradient(to right, rgb(0, 255, 0), rgb(202, 26, 26), gold);
+    background-image: linear-gradient(to right, rgb(0, 255, 0), rgb(26, 96, 202), gold, red);
 } 
 
 .galleryimg {
