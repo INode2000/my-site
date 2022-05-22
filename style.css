@@ -3,15 +3,62 @@ body {
 }
 
 .pervaya {
-	color: red 
+	color: red;
+    opacity: 0.5;
 }
 
 .pervaya:hover {
-	color: lightgreen 
+	color: rgb(255, 0, 221);
+    opacity: 1;
 }
 
 .luchshaya {
-	color: yellow
+	color: rgb(0, 192, 42);
+    opacity: 0.5;
 }
 
-.luchshaya
+.luchshaya:hover {
+    color: rgb(25, 0, 255);
+    opacity: 1;
+}
+
+.aboutme {
+    color: rgb(129, 190, 38);
+    opacity: 0.6;
+}
+
+.aboutme:hover {
+    color: purple;
+    opacity: 1;
+    
+}
+
+h4 {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 230, 0);
+    padding: 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(0, 255, 0), rgb(202, 26, 26), gold);
+} 
+
+.galleryimg {
+    opacity: 0.5;
+    width: 250px;
+    height: 200px;
+}
+
+.galleryimg:hover {
+    opacity: 1;
+    border: 6px solid navy;
+    width: 370px;
+    height: 220px;
+    transition: 0.5s ease-out;
+    padding: 5px;
+}
+
+a:hover {
+    background-image: linear-gradient(white,lightblue);
+    box-shadow: 0 10px 5px 0 rgb(0, 128, 128), 0 20px 5px 0 rgb(205, 186, 102);
+    transition: 0.5s linear;
+}
